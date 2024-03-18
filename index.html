@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <nav class="nav">
+        <div class="container">
+            <div class="logo">
+                <a href="#"><img src="img&video/logo.png" alt=""></a>
+            </div>
+            <div id="mainListDiv" class="main_list">
+                <ul class="navlinks">
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">who we are?</a></li>
+                    <li><a href="#">our coffees</a></li>
+                    <li><a href="#">dip-N-sip</a></li>
+                    <li><a href="#">merchandise</a></li>
+                    <li><a href="#">brewing tools</a></li>
+
+                </ul>
+            </div>
+            <span class="navTrigger">
+                <i></i>
+                <i></i>
+                <i></i>
+            </span>
+        </div>
+    </nav>
+
+    <!---page1 start---->
+    <div class="video1">
+        <video autoplay loop muted src="img&video/Roasting Goodness _ Caffena Coffee.mp4"></video>
+    </div>
+    <section class="home">
+        <h1>Awaken your senses!</h1>
+        <button><a href="#">shope now</a></button>
+    </section>
+    <!---page1 end---->
+
+    <!---page2 start---->
+    <div class="page2">
+        <div class="text">
+            <h3>DIRECT TRADE 🤝🏼 SUSTAINABLY PACKED 📦 ETHICALLY SOURCED 🌱</h3>
+            <h2>Dip-N-Sip Coffee™ The Holy Trinity 100% Arabica</h2>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-sm-6 col-xs-12">
+                    <div class="wrapper">
+                        <img src="img&video/img-01.webp" alt="">
+                    </div>
+                    <h4>Einstein's Assorted Dip-N-Sip Pack</h4>
+                    <h5>Rs. 499.00 Sale priceRs. 349.00</h5>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-xs-12">
+                    <div class="wrapper">
+                        <img src="img&video/img-2.webp" alt="">
+                    </div>
+                    <h4>Nikola Dip-N-Sip Coffee™</h4>
+                    <h5>Rs. 499.00 Sale priceRs. 349.00</h5>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-xs-12">
+                    <div class="wrapper">
+                        <img src="img&video/img-3.webp" alt="">
+                    </div>
+                    <h4>Da Vinci Dip-N-Sip Coffee</h4>
+                    <h5>Rs. 499.00 Sale priceRs. 349.00</h5>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-xs-12">
+                    <div class="wrapper">
+                        <img src="img&video/img-4.webp" alt="">
+                    </div>
+                    <h4>Newton Dip-N-Sip Coffee</h4>
+                    <h5>Rs. 499.00 Sale priceRs. 349.00</h5>
+                </div>
+            </div>
+            <div class="btn">
+                <button><a href="#">view all</a></button>
+            </div>
+        </div>
+    </div>
+    <!---page2 end---->
+
+    <!---page3 strat-->
+    <div class="page3">
+        <div class="cont">
+            <h2>Our Collections</h2>
+            <h3>Savor the finest brews: Discover our exquisite collection of coffee delights! ✨</h3>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-sm-6 col-xs-12">
+                    <div class="big">
+                        <img src="img&video/img-01.webp" alt="">
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-sm-6 col-xs-12">
+                    <div class="part">
+                        <img src="img&video/Coffee_beans.webp" alt="">
+                        <img src="img&video/Caffena_Group.webp" alt="">
+                        <div class="con1">
+                            <img src="img&video/coffee cup.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer>
+        <div class="footer">
+            <h3><i class="fa fa-copyright" aria-hidden="true"></i>copyright © 2024 Avinash Pingale. All rights reserved</h3>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+    <!-- just to make scrolling effect possible -->
+
+    <!-- Jquery needed -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+
+    <!-- Function used to shrink nav bar removing paddings and adding black background -->
+    <script>
+        $(window).scroll(function() {
+            if ($(document).scrollTop() > 50) {
+                $('.nav').addClass('affix');
+                console.log("OK");
+            } else {
+                $('.nav').removeClass('affix');
+            }
+        });
+    </script>
+
+
+</body>
+
+</html>
